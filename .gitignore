@@ -1,0 +1,33 @@
+# Build output
+build/
+dist/
+*.zip
+*.nupkg
+*.nupkg.*
+*.dll
+*.pdb
+*.mdb
+
+# Downloaded dependencies
+tools/deps/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local logs and dumps
+*.log
+source_database.json
